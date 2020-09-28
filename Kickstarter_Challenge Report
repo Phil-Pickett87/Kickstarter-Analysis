@@ -1,0 +1,34 @@
+Kickstarter Analysis Project
+
+## Overview of Project:
+This project compares multiple aspects of various kickstarter campaigns to help determine which factors go into creating a successful one. Given the analysis of our data, we can help Louise determine things like how much to ask for, when to launch, and if certain countries have better success for the type of project she is trying to kickstart. With this analysis report, Louise should be able to more clearly understand how to make sure she launches a successful kickstarter campaign!
+
+## Analysis and Challenges:
+When originally handed the data set, it was a bit overwhelming. In order to make better sense of it, the first step was making the data more readable. Adding things like coloring to indicate a campaign's success, ensuring different categories had the proper formatting, and sectioning the data into different work sheets were all helpful visual changes to make the data easier to understand. As the data became easier to read, we began to see certain patterns emerge. For example, generally the higher the goal was, the less people were willing to donate to it. From this we can see that if the starting goal is too high, it is less likely to succeed. These types of findings were crucial in order to help Louise make decisions that will put her campaign on the path to success.
+
+### Analysis of Outcomes Based on Launch Date:
+As far as useful data goes, the data of the outcomes based on when the campaigns were launched is significant. This data can show us if there are certain times of the year that a theater Kickstarter has a better chance of succeeding.
+
+
+### Analysis of Outcomes Based on Goals:
+Perhaps one of the most telling sections of data in this analysis is the outcomes based on goals. In this sheet we can see how the amount the campaign is trying to raise affects its ability to succeed. This is important for anyone trying to launch a campaign to see because it can help give them a reality check as far as how much they can realistically ask for and expect to receive.
+
+
+### Challenges and Difficulties Encountered
+When looking at any large set of data there are bound to be certain challenges one is faced with. An initial challenge I faced was that not all the data given was in the correct format (deadline, launched_at) and as such, was impossible to get any usable information from. To fix this, we corrected the data to read as the actual dates of launch and completion as opposed to the unix timestamps format they were initially in. There were  other minor issues with getting the correct data on a chart, that however was easily fixed by realizing that only certain data needed to be selected in order to display the necessary information.
+
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+When examining the data of the outcomes based on launch date, we can see that kickstarters launched in May had a 67% success rate, while ones launched in December had on a 49% success rate. Its clear from the table that theater kickstarters do better in the spring and the summer, possibly due to the fact that people want to be out of the house more during the warmer months and go see live shows! We see from the data that in this given year, 61% of all theater campaigns succeeded, if Louise combines this knowledge with the data from the other categories, she should be able to make an informed decision on when to launch her campaign.
+
+- What can you conclude about the Outcomes based on Goals?
+By quickly looking at the table of outcomes based on goal we can see that campaigns with lower goals had a much higher chance of being successful. For example 76% of campaigns that were looking for less than $1000 succeeded. The higher the goal climbed, the fewer campaigns there were and even fewer that succeeded. From this data we can conclude that people are more willing to invest in a smaller kickstarter with an achievable goal, thus in order to not turn off potential investors, Louise should manage expectations and set her goal at a reasonable number.
+
+- What are some limitations of this dataset?
+Overall I felt this data set was pretty comprehensive, it seemed to include just about everything we needed in order to give Louise the answers she was looking for. One other piece of data that wasn't included but could be useful is the Type of Play. Is it an original? Is it a classic? Is it adapted from a novel or film? This categorization could help us further understand which type of plays succeed and why certain ones have set their goals where they did.
+
+- What are some other possible tables and/or graphs that we could create?
+One other possible table we could create could be a combination of the date launched data and the outcomes based on goal data. Here we could see if at certain times of the year, kickstarters were asking for more or less money. For example we saw that December had the lowest % of successful kickstarters launched. This could perhaps be due to more elaborate expensive holiday plays that had higher goals and therefore had a tougher time meeting them. This combination of data would be just one more tool in helping us look at the correlation between different sets of data.
+
+
